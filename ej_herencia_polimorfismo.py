@@ -1,11 +1,3 @@
-'''
-En este contexto, la clase "Persona" es la clase padre,
-tiene el método saludar incluido con los atributos nombre y edad
-y sus clase hijas son "Profesor" y "Estudiante" que hereda aquellos atributos junto
-a definir uno más el cual es el grado del estudiante y la materia del profesor
-además de implementar polimorfismo para el método "saludar".
-Esto dará un saludo personalizado a cada clase
-'''
 class Persona:
     def __init__(self, nombre, edad):
         self.nombre = nombre
